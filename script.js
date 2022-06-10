@@ -19,15 +19,13 @@ for(i = 1, operand = i; i < operands; i++) {
 
     if(operator == `+`) {
         sum += operand;
-        console.log(sum);
     } else if(operator == `-`) {
         sum -= operand;
-        console.log(sum);
     } else if(operator == `*`) {
         sum *= operand;
-        console.log(sum);
     } else if(operator == `/`) {
         sum /= operand;
-        console.log(sum);
     }
+    
+    console.log(`answer is ${sum}`);
 }
