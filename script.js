@@ -12,8 +12,10 @@ do {
 } while(isNaN(sum));
 
 for(i = 1, operand = i; i < operands; i++) {
-    operand = +prompt(`Enter else ${operands - 1} numbers`);
-    console.log(operand);
+    do {
+        operand = +prompt(`Enter else ${operands - 1} numbers`);
+        console.log(operand);
+    } while(isNaN(operand));
 
     if(operator == `+`) {
         sum += operand;
