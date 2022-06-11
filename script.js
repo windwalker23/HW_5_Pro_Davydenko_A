@@ -26,6 +26,5 @@ for(i = 1, operand = i; i < operands; i++) {
     } else if(operator == `/`) {
         sum /= operand;
     }
-    
-    console.log(`answer is ${sum}`);
 }
+console.log(`answer is ${sum}`);
